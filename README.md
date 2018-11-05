@@ -1,6 +1,8 @@
 # social-app
 **Laravel Vue CMS** - Simple app for posting blogs, commenting, and chating with other users
 
+![profile-screenshot](https://user-images.githubusercontent.com/43070749/48009786-ab0eae00-e11c-11e8-8ee2-6a21caea81db.png)
+
 ## Getting Started
 Make sure you have `npm` and `composer` on your local machine
 
