@@ -1,0 +1,97 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Icons
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.form-style{
+    width:  53vw;
+    padding: 30px 30px 25px 30px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0 0 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style h2{
+    background: #e6e6e6;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 3px -30px;
+}
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="datetime"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="search"],
+.form-style input[type="time"],
+.form-style input[type="url"],
+.form-style input[type="password"],
+.form-style textarea,
+.form-style select
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.form-style input[type="button"],
+.form-style input[type="submit"]{
+    float: right;
+    -moz-box-shadow: inset 0 1px 0 0 #45D6D6;
+    -webkit-box-shadow: inset 0 1px 0 0 #45D6D6;
+    box-shadow: inset 0 1px 0 0 #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.form-style input[type="button"]:hover,
+.form-style input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+input[type="file"],
+input.attachment[type="file"] {
+    display: none;
+}
+
+.form-style .error-message {
+    color: red;
+    display: block;
+}
+
+.material-icons {
+    vertical-align: middle !important;
+    padding-bottom: 3px;
+}
